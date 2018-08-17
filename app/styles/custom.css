@@ -1,0 +1,63 @@
+.mdl-layout__header, .mdl-layout__header-row .mdl-navigation__link {
+  color: black;
+}
+
+.mdl-layout__header {
+  background-color: white;
+}
+
+.demo-menu.demo-menu__top-left .container {
+  position: relative;
+  width: 350px;
+  padding-left: 40px;
+  color: black;
+}
+
+.demo-menu.demo-menu__top-left .container h3 {
+  padding-bottom: 25px;
+}
+
+.mdl-navigation__link a {
+  color: blue;
+  font-size: 34px;
+}
+
+.cards {
+  padding-left: 40px;
+  padding-top: 150px;
+  display: inline-block;
+}
+
+.demo-card-wide.mdl-card {
+  float: left;
+  height: 350px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  box-sizing: content-box;
+}
+
+.demo-card-wide:nth-last-of-type(2) > .mdl-card__title {
+  background: url('../images/card-image.jpg') center / cover;
+  height: 100%;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-wide.mdl-card:nth-last-of-type(3),
+.demo-card-wide.mdl-card:nth-last-of-type(1) {
+  width: 300px;
+}
+
+.demo-card-wide.mdl-card:nth-last-of-type(2),
+.demo-card-wide.mdl-card:nth-last-of-type(4) {
+  width: 600px;
+}
+
+.bottom-section {
+  margin-top: 150px;
+  width: 350px;
+  padding-left: 40px;
+}
