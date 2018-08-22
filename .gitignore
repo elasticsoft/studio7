@@ -3,3 +3,5 @@ dist/
 .tmp
 .idea
 app.yaml
+gringo.iml
+yarn.lock
