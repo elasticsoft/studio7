@@ -2,9 +2,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.mdl-layout__content {
+  margin-top: 100px;
+}
+
 .mdl-layout__header, .mdl-layout__header-row .mdl-navigation__link {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .mdl-layout__header {
@@ -24,7 +28,7 @@ body {
 }
 
 .mdl-navigation__link a {
-  color: #2828bf;
+  color: #021CB1;
   font-size: 34px;
   text-decoration: none;
   border-bottom: 2px solid;
@@ -40,7 +44,7 @@ body {
 }
 
 .init {
-  background: #2828bf;
+  background: #021CB1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +56,7 @@ body {
 }
 
 .client {
-  background: orange;
+  background: #FB7200;
   padding-top: 25px;
 }
 
@@ -94,7 +98,7 @@ body {
   display: inline-block;
   height: 25em;
   width: 45%;
-  background: blue;
+  background: #021CB1;
   margin: 5px;
 }
 
@@ -153,6 +157,14 @@ body {
 }
 
 @media only screen and (max-width: 981px) {
+
+  h3 {
+    font-size: 22px;
+  }
+  p, a {
+    font-size: 14px;
+  }
+
   .bottom-section {
     margin-top: 50px;
   }
@@ -180,6 +192,10 @@ body {
   .mdl-demo .mdl-layout__content section:not(:last-of-type) {
     margin-bottom: 0;
   }
+
+  .mdl-layout__content {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -198,7 +214,7 @@ body {
   }
 
   .instagram .blocks {
-    width: 99%;
+    width: 97%;
     height: 200px;
   }
 
@@ -217,5 +233,10 @@ body {
 
   .demo-menu.demo-menu__top-left .container {
     width: auto;
+  }
+
+  .demo-menu.demo-menu__top-left .container h3 {
+    padding: 0;
+    margin: 0;
   }
 }
