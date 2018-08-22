@@ -39,6 +39,9 @@
   <!-- Material Design icons -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+  <!-- Roboto fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 
   <!-- Material Design Lite page styles:
   You can choose other color schemes from the CDN, more info here http://www.getmdl.io/customize/index.html
@@ -64,8 +67,8 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="">Work</a>
-          <a class="mdl-navigation__link" href="">Studio</a>
+          <a class="mdl-navigation__link" href="#cards">Work</a>
+          <a class="mdl-navigation__link" href="#instagram">Studio</a>
           <a class="mdl-navigation__link" href="">Contact</a>
         </nav>
       </div>
@@ -84,34 +87,42 @@
               </span>
             </div>
 
-            <section class="cards">
+            <section class="cards" id="cards">
               <div class="snippet-demo-container demo-card demo-card__wide">
 
-                <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp init">
                   <div class="mdl-card__title">
-
+                    init.d
                   </div>
-
+                  <div class="mdl-card__title">
+                    < photo >
+                  </div>
+                </div>
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp client">
+                  <p>Client</p>
+                  <p>init.d</p>
+                  <div class="mdl-card__title">
+                    Website and Branding
+                  </div>
+                  <p>View</p>
                 </div>
                 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
                   <div class="mdl-card__title">
                   </div>
 
                 </div>
-                <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp jane">
+                  <p>Client</p>
+                  <p>Jane</p>
                   <div class="mdl-card__title">
+                    Styling
                   </div>
-
-                </div>
-                <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-                  <div class="mdl-card__title">
-
-                  </div>
+                  <p>View</p>
                 </div>
 
               </div>
             </section>
-            <div class="container bottom-section">
+            <section class="container bottom-section">
               <h3>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s
@@ -119,9 +130,27 @@
               <span class="mdl-navigation__link">
                 <a href="">Say Hi !</a>
               </span>
-            </div>
+            </section>
+            <section class="container insta" id="instagram">
+              <div class="instagram">
+                <div class="blocks"></div>
+                <div class="blocks"></div>
+                <div class="blocks"></div>
+                <div class="blocks"></div>
+              </div>
+              <div class="instagram-info">
+                <h3>Our latest work on instagram</h3>
+                <h3>@studio7</h3>
+                <span class="mdl-navigation__link">
+                <a href="">More</a>
+              </span>
+              </div>
+            </section>
           </div>
         </div>
+      </div>
+      <div class="footer-layout">
+        <span class="mdl-layout-title">Studio 7</span>
       </div>
     </main>
     <div class="mdl-layout__obfuscator"></div>
